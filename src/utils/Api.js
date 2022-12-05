@@ -3,10 +3,6 @@ import {useDispatch, useSelector} from 'react-redux';
 import {applyMiddleware} from 'redux';
 import {setServices, setSplash} from '../redux/reducer';
 import store from '../redux/store';
-
-const apiBaseUrl = 'https://www.machinrun.islapps.tech/backend/public/api/';
-const saddadUrl = 'https://api-s.sadad.qa/api/';
-const assetsBaseUrl = 'https://www.machinrun.islapps.tech/backend/public/';
 const getRedux = () => {
   const dashboardReducer = useSelector(state => state.dashboardReducer);
   // console.log('dashboardReducer', dashboardReducer);
